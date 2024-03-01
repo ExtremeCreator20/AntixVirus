@@ -5,9 +5,6 @@ from pydub.playback import play
 sus = AudioSegment.from_wav("suspicious.wav")
 mal = AudioSegment.from_wav("malicious.wav")
 
-#args = sys.argv[1:]
-
-
 
 def calculate_md5(filename):
     with open(filename, 'rb') as file:
