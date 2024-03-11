@@ -18,8 +18,6 @@ class NewFileEvent(FileSystemEventHandler):
             callAxV()
 
 
-
-
 while True:
     observer = Observer()
     eventhandler = NewFileEvent()
